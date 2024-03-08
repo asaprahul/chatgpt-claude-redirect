@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "OpenAI to Claude Redirect",
+    "version": "1.0",
+    "description": "Redirects chat.openai.com to claude.ai/chats",
+    "permissions": ["webRequest", "webRequestBlocking", "*://chat.openai.com/*"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": true
+    }
+}
